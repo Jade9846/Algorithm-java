@@ -19,7 +19,8 @@ public class Main {
 		for(int i = 0 ; i < N ; i++) {
 			house[i] = Integer.parseInt(br.readLine());
 		}
-		
+
+		// 이분탐색 전 배열 정렬
 		Arrays.sort(house);
 
 		// 최대 길이 찾기 
