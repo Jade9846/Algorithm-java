@@ -15,12 +15,12 @@ public class Main {
 
         numList = new int[N + 1];
         st = new StringTokenizer(br.readLine());
-        for (int i = 1; i <= N; i++) {
+        for (int i = 0; i < N; i++) {
             numList[i] = Integer.parseInt(st.nextToken());
         }
 
-        int start = 1;
-        int end = 1;
+        int start = 0;
+        int end = 0;
         int sum = 0;
         int minLength = Integer.MAX_VALUE;
 
